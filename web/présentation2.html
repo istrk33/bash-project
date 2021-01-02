@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+</head>
+<body>
+<h1 id="un-titre-de-niveau-1-h1">Un titre de niveau 1 : h1</h1>
+<p>Les paragraphes sont séparés par une ligne vide.</p>
+<p>2ème paragraphe.<em>accentué</em>,<strong>gras</strong> et <code>monospace</code>.</p>
+<p>les listes : * celui-là * celui-là * L'autre</p>
+<blockquote>
+<p>Les blocs sont écris comme ça.</p>
+<p>Ils peuvent couvrir plusieurs paragraphes, si vous le désirez.</p>
+</blockquote>
+<h2 id="un-titre-de-niveau-2-h2">Un titre de niveau 2 : h2</h2>
+<p>Voici une liste numérotée:</p>
+<ol style="list-style-type: decimal">
+<li>premier article</li>
+<li>deuxième article</li>
+<li>troisième article</li>
+</ol>
+<p>et un exemple de code:</p>
+<pre><code>#Itération ...
+pour i variant de 1..10 {faire quelque chose}</code></pre>
+<p>Au fait, au lieu d'indenter le bloc, vous pouvez utiliser des blocs délimités, si vous aimez:</p>
+<pre><code>définir foobar(){
+    print &quot;Bienvenue dans le pays des fous!&quot;;
+}</code></pre>
+<p>Vous pouvez éventuellement marquer le bloc délimité avec le language pour la syntaxe ( ici <code>Python</code>)</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="im">import</span> time
+<span class="co">#Quick, count to ten!</span>
+<span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>):
+    <span class="co">#(but not *too* quick)</span>
+    time.sleep(<span class="fl">0.5</span>)
+    <span class="bu">print</span>(i)</code></pre></div>
+<h3 id="une-en-tête-h3">Une en-tête h3</h3>
+<p>Maintenant une liste imbriquée:</p>
+<ol style="list-style-type: decimal">
+<li><p>Procurez vous ces ingrédients:</p>
+<ul>
+<li>carottes</li>
+<li>célri</li>
+<li>Lentilles</li>
+</ul></li>
+<li><p>Faites bouillir de l'eau.</p></li>
+<li><p>Vider tout dans le pot et suivre dans cet algorithme:</p></li>
+</ol>
+<blockquote>
+<p>trouver une cuillère en bois</p>
+<p>découvrir le pot</p>
+<p>remuer</p>
+<p>attends 10min</p>
+<p>aller à la première étape (ou éteindre le bruleur quand c'est fini)</p>
+</blockquote>
+<p>Voici un lien vers un <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">site Web</a> et vers <a href="">une entête de section dans le document</a>.</p>
+<p>LEs tableaux peuvent ressembler à ceci avec l'alignement de colonnes :</p>
+<table>
+<thead>
+<tr class="header">
+<th>Nom</th>
+<th>Taille</th>
+<th>Matière</th>
+<th>Couleur</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>All Business</td>
+<td>9</td>
+<td>en cuir</td>
+<td>marron</td>
+</tr>
+<tr class="even">
+<td>Roundabout</td>
+<td>10</td>
+<td>toile de chanvre</td>
+<td>naturel</td>
+</tr>
+<tr class="odd">
+<td>Cendrillon</td>
+<td>11</td>
+<td>verre</td>
+<td>transparent</td>
+</tr>
+</tbody>
+</table>
+<p>Une ligne horizontale suit...</p>
+<hr />
+<p>Et une liste en mode case à cocher</p>
+<ul>
+<li><ul>
+<li>[ ] Case à cocher</li>
+</ul></li>
+<li><ul>
+<li>[x] Case cochée</li>
+</ul></li>
+</ul>
+<p>Les images peuvent être spécifiées comme suit:</p>
+<div class="figure">
+<img src="img.png" title="dfghj" alt="img" />
+<p class="caption">img</p>
+</div>
+<p>Équation mathématique en ligne: <span class="math inline"><em>ω</em> = <em>d</em><em>ϕ</em>/<em>d</em><em>t</em></span>.</p>
+<p>Les maths peuvent se centrer directement sur la ligne : <br /><span class="math display"><em>I</em> = ∫<sub>0</sub><sup>2</sup><em>ρ</em><em>R</em><sup>2</sup><em>d</em><em>V</em></span><br /> Et notez que vous pouvez utiliser une barre oblique inversée pour échapper tous les caractères de ponctuation que vous souhaitez afficher littéralement, par exemple: 'foo `, <em>bar </em>, etc</p>
+</body>
+</html>
